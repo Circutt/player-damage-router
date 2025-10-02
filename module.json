@@ -1,24 +1,32 @@
 {
   "id": "player-damage-router",
-  "type": "module",
   "title": "Player Damage Router (PF2e)",
-  "description": "Players apply PF2e damage to targets by routing the action through the GM. Replaces PF2e apply-damage buttons with compact PDR controls.",
+  "description": "Players apply PF2e damage to targets by routing the action through the GM.",
+
   "version": "1.4.4",
-
-  "authors": [{ "name": "Circutt" }],
-
-  "compatibility": { "minimum": "10", "verified": "13" },
-  "systems": ["pf2e"],
-
+  "authors": [
+    {
+      "name": "Circut",
+      "email": ""
+    }
+  ],
+  "socket": true,
+  "scripts": [],
   "esmodules": ["scripts/main.js"],
-  "socket": false,
-
-  "license": "MIT",
-  "readme": "https://github.com/Circutt/player-damage-router#readme",
-  "url": "https://github.com/Circutt/player-damage-router",
+  "relationships": {
+  "systems": ["pf2e"],
+   
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.348",
+    "maximum": "13.999"
+  },
   "bugs": "https://github.com/Circutt/player-damage-router/issues",
-  "changelog": "https://github.com/Circutt/player-damage-router/releases",
-
+  "flags": {
+    "allowBugReporter": true
+  },
+  "url": "https://github.com/Circutt/player-damage-router",
   "manifest": "https://raw.githubusercontent.com/Circutt/player-damage-router/main/module.json",
-  "download": "https://github.com/Circutt/player-damage-router/releases/download/1.4.4/player-damage-router-1.4.4.zip"
+  "download": "https://github.com/Circutt/player-damage-router/releases/download/1.4.4/player-damage-router-1.4.4.zip",
+  "changelog": "https://github.com/Circutt/player-damage-router/releases"
 }
