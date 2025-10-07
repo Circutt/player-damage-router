@@ -1,7 +1,4 @@
 /* Player Damage Router — PF2e (v2.2.0)
- * SocketLib • Replace-only UI • Splash-safe (order + rollIndex repair)
- * GM-side queue (serialized applies) • Optional PF2e feedback suppression
- * Simplify persistent math in "damage taken" lines • Healing + self-fallback
  * PF2e 7.5.2 • Foundry v13+
  */
 (() => {
@@ -523,3 +520,4 @@
   };
   Hooks.on("renderChatMessageHTML", ns.onRender);
 })();
+
